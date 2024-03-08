@@ -4,7 +4,7 @@ input_numbers = input("Enter a series of space-separated integers: ")
 # Convert Input:
 
 numbers_list = input_numbers.split(" ")
-tuple_numbers = eval(input_numbers)
+tuple_numbers = tuple(numbers_list)
 
 # Sorting:
 
